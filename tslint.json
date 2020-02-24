@@ -1,0 +1,7 @@
+{
+  "extends": ["tslint-plugin-prettier", "./.tslint/tslint.base.json", "tslint-config-prettier"],
+  "include": ["src", "stories"],
+  "rules": {
+    "prettier": true
+  }
+}
